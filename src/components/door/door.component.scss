@@ -1,0 +1,25 @@
+.door-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+   
+  }
+
+ 
+  
+  .door {
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    transform-origin: left center;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .door.open {
+    transform: rotateY(110deg);
+  
+  }
+  
